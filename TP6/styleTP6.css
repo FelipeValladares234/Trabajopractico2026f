@@ -1,0 +1,27 @@
+body{
+    background-color: midnightblue;
+    font-family: Arial, Helvetica, sans-serif; color: mintcream;
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+    }
+.div1{
+    display: flex; justify-content: space-between;
+    width: 100%;
+}
+.p1{
+    font-size: 20px;
+    color: mintcream;
+}
+button{
+    background-color: mintcream;
+    color: rgb(255, 255, 255);
+    padding: 14px;
+    border: none;
+    border-radius: 17px;
+}
+button:hover{
+    background-color: blue
+    transform: scale(1.1) rotate(5deg);
+}
+button{
+    transition: o.3s;
+}
